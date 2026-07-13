@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dedenshb</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <!-- BAGIAN NAVBAR (MENU ATAS) -->
+    <nav class="navbar">
+        <!-- Teks logo dibungkus dengan link yang mengarah ke #home -->
+        <div class="logo"><a href="#home" style="color: white; text-decoration: none;">Deden's Journey</a></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- BAGIAN UTAMA (HERO SECTION) - DITAMBAHKAN ID "home" -->
+    <header id="home" class="hero-section">
+        <div class="hero-left">
+            <div class="profile-frame">
+                <img src="foto-deden.jpg" alt="Foto Deden Emon" class="profile-img">
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="hero-content">
+                <h1>Hello!</h1>
+                <h1>I'm Deden Emon Lumbantoruan</h1>
+                <p class="subtitle">dedenlumbantoruan@gmail.com</p>
+                <p class="subtitle">Electrical Engineering Student | Control Systems, IoT, Embedded Systems, Renewable Energy & AI Enthusiast</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn">About</a>
+                    <a href="#experience" class="btn">Experience</a>
+                    <a href="#projects" class="btn">Projects</a>
+                    <a href="#certificates" class="btn">Achievements</a>
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BAGIAN ABOUT ME -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <p>I am an Electrical Engineering student (Class of 2023) at Telkom University Purwokerto with a strong interest in electronics, control systems, embedded systems, IoT, renewable energy, and artificial intelligence (AI). I actively develop my technical skills through academic coursework, funded projects, and research collaborations with faculty members. I enjoy learning new things and have a deep interest in cutting-edge technologies, including renewable energy. Backed by strong analytical and problem-solving abilities, I am committed to creating effective and innovative solutions in the field of electrical engineering.</p>
+            
+            <h3 style="margin-top: 30px; color: #170707;">Technical Competencies</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Technical & Hardware</h4>
+                    <p>Electrical Circuits, Control Systems, Embedded Systems, Internet of Things, Microcontroller Systems, Electronic Prototyping</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Software & Tools</h4>
+                    <p>Microcontroller, ArduinoIDE, STM32CubeIDE, Visual Studio Code, Fritzing/EasyEda, Autodesk Fusion, ProgeCAD, SoMachine (EcoStruxure Machine Expert)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN EXPERIENCE-->
+    <section id="experience" class="dark-section">
+        <h2>Experience</h2>
+        
+        <div class="exp-org-container">
+            
+            <!-- KOLOM KIRI (2 ITEM) -->
+            <div class="exp-column">
+                <div class="card-item">
+                    <div class="card-img-box">
+                        <img src="exp-kp.png" alt="Kerja Praktik ICDEC" class="card-img">
+                    </div>
+                    <div class="card-text">
+                        <h4>Embedded DSP Engineer - Internship</h4>
+                        <h5>Indonesia Chip Design Collaborative Center. </h5>
+                        <h6>July 2026</h6>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <div class="card-img-box">
+                        <img src="exp-lab.png" alt="Laboratorium Tel-U" class="card-img">
+                    </div>
+                    <div class="card-text">
+                        <h4>General Coordinator and Laboratory Assistant  </h4>
+                        <h5>Electronics and Internet of Everything Laboratory Telkom University.</h5>
+                        <h6>Agst 2024 - Jun 2026</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KOLOM KANAN (2 ITEM) -->
+            <div class="org-column">
+                <div class="card-item">
+                    <div class="card-img-box">
+                        <img src="exp-hmte.jpg" alt="HMTE Telkom" class="card-img">
+                    </div>
+                    <div class="card-text">
+                        <h4>Research and Development</h4>
+                        <h5> HMTE Telkom University</h5>
+                        <h6> Jan 2024 - Dec 2025</h6>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <div class="card-img-box">
+                        <img src="exp-robotics.jpg" alt="Robotics Group" class="card-img">
+                    </div>
+                    <div class="card-text">
+                        <h4>Public Relations</h4>
+                        <h5>Robotics Research Group Tel-U </h5>
+                        <h6>Jan 2024 - July 2026</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- BAGIAN PROJECTS (9 PROYEK DENGAN FITUR SEE MORE) -->
+    <section id="projects" class="light-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            
+            <!-- 3 PROYEK UTAMA (OTOMATIS MUNCUL) -->
+            <div class="project-card">
+                <img src="proj-petrafil.jpg" alt="Petrafil Machine" class="project-img">
+                <div class="project-card-content">
+                    <h3>PETRAFIL MACHINE</h3>
+                    <span class="badge">Applied Innovation Grant 2026</span>
+                    <p>(On Going) 3D printing filament production machine based on waste plastic bottles (PET) to support the circular economy in Banyumas Regency.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="proj-ristop.jpeg" alt="Ristop System" class="project-img">
+                <div class="project-card-content">
+                    <h3>RISTOP SYSTEM</h3>
+                    <span class="badge">Capstone Project</span>
+                    <p>Developing an IoT-based rice storage system using Mamdani fuzzy logic to automatically maintain temperature and humidity conditions, thereby preventing the growth of mold and weevils.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="proj-omicro.png" alt="Omicro Project" class="project-img">
+                <div class="project-card-content">
+                    <h3>OMICRO</h3>
+                    <span class="badge">Applied Innovation Grant 2025</span>
+                    <p>An ESP32-based classroom monitoring system utilizes the MQTT protocol for power efficiency and real-time automated control of electrical devices (The intellectual property right has been issued.)</p>
+                </div>
+            </div>
+
+            <!-- 6 PROYEK TAMBAHAN (DIBERIKAN KELAS 'hidden-project') -->
+            <div class="project-card hidden-project">
+                <img src="proj-robot.png" alt="robotika" class="project-img">
+                <div class="project-card-content">
+                    <h3>Autonomous Sumo Robot</h3>
+                    <span class="badge">Robotics Major Project</span>
+                    <p>Designed and built an autonomous sumo robot using ESP32 with ultrasonic and infrared sensors for opponent detection and arena boundary avoidance. Developed autonomous control algorithms for searching, attacking, and navigation, integrated hardware and software, and validated the system through testing and competition.</p>
+                </div>
+            </div>
+
+            <div class="project-card hidden-project">
+                <img src="proj-pid.jpeg" alt="PID Water Level" class="project-img">
+                <div class="project-card-content">
+                    <h3>PID Water Level Control</h3>
+                    <span class="badge">Control Systems Major Project</span>
+                    <p>Implementing a PID (Proportional-Integral-Derivative) controller to precisely maintain water level stability in the tank.</p>
+                </div>
+            </div>
+
+            <div class="project-card hidden-project">
+                <img src="proj-cnn.png" alt="Face Mask Detection" class="project-img">
+                <div class="project-card-content">
+                    <h3>Face Mask Detection CNN</h3>
+                    <span class="badge">Artificial Intelligence Major Project</span>
+                    <p>Implementation of Convolutional Neural Network (CNN) architecture and OpenCV for image processing to detect face masks in a hospital environment.</p>
+                </div>
+            </div>
+
+            <div class="project-card hidden-project">
+                <img src="proj-plc.png" alt="PLC Industrial Automation" class="project-img">
+                <div class="project-card-content">
+                    <h3>PLC Paint Mixer Automation</h3>
+                    <span class="badge">Industrial Automation Major Project</span>
+                    <p>Development of control logic programs using EcoStruxure Machine Expert software for paint mixing and packaging automation.</p>
+                </div>
+            </div>
+
+            <div class="project-card hidden-project">
+                <img src="cat.jpeg" alt="cat" class="project-img">
+                <div class="project-card-content">
+                    <h3>Automatic Cat Feeder</h3>
+                    <span class="badge">Internet of Things Major Project</span>
+                    <p>Developing an automatic feeder system with precise portion control using load cell sensors and an IoT-based HX711 module.</p>
+                </div>
+            </div>
+
+            <div class="project-card hidden-project">
+                <img src="proj-security.jpeg" alt="Arduino Security System" class="project-img">
+                <div class="project-card-content">
+                    <h3>Room Security System</h3>
+                    <span class="badge">Embedded Systems Major Project</span>
+                    <p>Designing a door security system using a keypad for access authentication and a PIR sensor for human presence detection.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- TOMBOL UNTUK MEMBUKA PROYEK LAINNYA -->
+        <div style="text-align: center; margin-top: 40px;">
+            <button id="load-more-btn" class="btn" style="cursor: pointer;">See More Projects</button>
+        </div>
+    </section>
+
+    <!-- BAGIAN ACHIEVEMENTS (URUTAN SESUAI REQUEST) -->
+    <section id="certificates" class="dark-section">
+        <h2>Achievements & Awards</h2>
+        <ul class="achievements-list">
+            <li>Finalist, KlikStart 3.0 Business Idea Competition, Bandung Techno Park 2026</li>
+            <li>Recipient, Telkom University Applied Innovation Grant 2026</li>
+            <li>Recipient, Telkom University Applied Innovation Grant 2025</li>
+            <li>Top 10, National Business Essay Competition | HMTI Telkom University 2025</li>
+            <li>Best Infographic, National Business Essay Competition | HMTI Telkom University 2025</li>
+            <li>University Representative at the National Level — Student Creativity Program (PKM) 2026</li>
+        </ul>
+    </section>
+
+    <!-- BAGIAN CONTACT (4 TOMBOL UTAMA) -->
+    <section id="contact" class="contact-section">
+        <h2>Connect With Me</h2>
+        <div class="contact-links">
+            <a href="https://wa.me/6282324643438" target="_blank" class="btn">WhatsApp</a>
+            <a href="mailto:dedenlumbantoruan@gmail.com" class="btn">Gmail</a>
+            <a href="https://www.linkedin.com/in/deden-emon-lumbantoruan-81a85a311/" target="_blank" class="btn">LinkedIn</a>
+            <!-- Nanti ganti '#' di bawah ini dengan link profil GitHub kamu -->
+            <a href="https://github.com/dedenshb" target="_blank" class="btn">GitHub</a>
+        </div>
+    </section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="script.js"></script>
+</html>
